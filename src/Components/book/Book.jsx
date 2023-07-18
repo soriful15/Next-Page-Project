@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
+
+
 const Book = ({ book }) => {
     // console.log(book)
     return (
 
 
 
-        
+
         <>
             <Link to={`../book/${book.isbn13}`}>
 
